@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    font-family: "Georgia ", sans-serif
+}
+
+.Travel {
+
+    background-image: url(../img/изображение_viber_2024-04-20_21-59-41-770.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.container_travel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+
+
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(53, 60, 96, 0.752);
+    position: absolute;
+    left: 2px;
+    right: 2px;
+}
+
+.list_travel {
+    column-gap: 40px;
+    border-bottom: 5px solid transparent;
+    justify-content: left;
+    display: flex;
+    text-decoration: none;
+    color: azure;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+
+
+}
+
+.tra {
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.item_travel {
+    white-space: nowrap;
+}
+
+.travel_listen {
+    display: block;
+    justify-content: center;
+    margin-top: 102px;
+    margin-bottom: 225px;
+    align-items: center;
+}
+
+.btn {
+    border-color: chartreuse;
+    background-color: chartreuse;
+    color: azure;
+    border-radius: 15px;
+    width: 45px;
+    height: 23px;
+    padding: 23px, 24px, 23px;
+}
+
+.btn_travel {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.style {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.style_wer {
+    margin-bottom: 23px;
+    margin: 21px;
+    display: block;
+    font-size: 32px;
+}
+
+.list_travel:hover {
+    border-color: azure;
+    padding: 23px;
+    column-gap: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero_desc {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    white-space: nowrap;
+}
+
+.paragraph_hero {
+    color: antiquewhite;
+    white-space: nowrap;
+}
+
+.paragraph {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    white-space: nowrap;
+}
+
+
+
+.hero_btn {
+    white-space: nowrap;
+    padding: 21px;
+
+}
